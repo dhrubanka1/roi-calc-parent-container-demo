@@ -86,7 +86,7 @@
         .modal-content {
             background: white;
             width: 70%;
-            height: 80%;
+            height: 85%;
             padding: 20px;
             border-radius: 10px;
             position: relative;
@@ -172,11 +172,11 @@
     </div>
 
     <script>
-        const modal = document.getElementById("modal");
-        const openModal = document.getElementById("openModal");
+        const modal       = document.getElementById("modal");
+        const openModal   = document.getElementById("openModal");
         const closeButton = document.querySelector(".close-button");
-        const iframe = document.querySelector(".modal-content iframe");
-        const iframeSrc = iframe.src; // Store the original src
+        const iframe      = document.querySelector(".modal-content iframe");
+        const iframeSrc   = iframe.src; // Store the original src
     
         openModal.addEventListener("click", () => {
             modal.style.display = "flex";
